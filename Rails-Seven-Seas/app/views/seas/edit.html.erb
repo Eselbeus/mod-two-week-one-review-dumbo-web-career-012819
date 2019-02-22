@@ -26,3 +26,5 @@
   <%=  f.submit %>
 
   <% end %>
+
+  <%= link_to 'Delete', @sea, method: :delete, data: {:confirm => 'Are you sure?'}  %>
